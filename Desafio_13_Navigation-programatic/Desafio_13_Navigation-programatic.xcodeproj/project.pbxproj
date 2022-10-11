@@ -15,6 +15,8 @@
 		762C0A7E28F5CFD400F9EE53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762C0A7C28F5CFD400F9EE53 /* LaunchScreen.storyboard */; };
 		7682743E28F5E30300530022 /* Tela02VC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7682743D28F5E30300530022 /* Tela02VC.storyboard */; };
 		7682744028F5E31E00530022 /* Tela02VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7682743F28F5E31E00530022 /* Tela02VC.swift */; };
+		76FA996228F5E7E30023EA63 /* Tela04VC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FA996128F5E7E30023EA63 /* Tela04VC.storyboard */; };
+		76FA996428F5E80C0023EA63 /* Tela04VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FA996328F5E80C0023EA63 /* Tela04VC.swift */; };
 		76FFDDE928F5E55E0045926A /* Tela03VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFDDE828F5E55E0045926A /* Tela03VC.swift */; };
 		76FFDDEB28F5E5730045926A /* Tela03VC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FFDDEA28F5E5730045926A /* Tela03VC.storyboard */; };
 /* End PBXBuildFile section */
@@ -30,6 +32,8 @@
 		762C0A7F28F5CFD400F9EE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7682743D28F5E30300530022 /* Tela02VC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tela02VC.storyboard; sourceTree = "<group>"; };
 		7682743F28F5E31E00530022 /* Tela02VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela02VC.swift; sourceTree = "<group>"; };
+		76FA996128F5E7E30023EA63 /* Tela04VC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tela04VC.storyboard; sourceTree = "<group>"; };
+		76FA996328F5E80C0023EA63 /* Tela04VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela04VC.swift; sourceTree = "<group>"; };
 		76FFDDE828F5E55E0045926A /* Tela03VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela03VC.swift; sourceTree = "<group>"; };
 		76FFDDEA28F5E5730045926A /* Tela03VC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tela03VC.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +68,7 @@
 		762C0A7028F5CFD300F9EE53 /* Desafio_13_Navigation-programatic */ = {
 			isa = PBXGroup;
 			children = (
+				76FA995F28F5E7CD0023EA63 /* Tela04 */,
 				7682743C28F5E29F00530022 /* Tela03 */,
 				7682743B28F5E29500530022 /* Tela02 */,
 				762C0A7128F5CFD300F9EE53 /* AppDelegate.swift */,
@@ -93,6 +98,15 @@
 				76FFDDEA28F5E5730045926A /* Tela03VC.storyboard */,
 			);
 			path = Tela03;
+			sourceTree = "<group>";
+		};
+		76FA995F28F5E7CD0023EA63 /* Tela04 */ = {
+			isa = PBXGroup;
+			children = (
+				76FA996128F5E7E30023EA63 /* Tela04VC.storyboard */,
+				76FA996328F5E80C0023EA63 /* Tela04VC.swift */,
+			);
+			path = Tela04;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76FA996228F5E7E30023EA63 /* Tela04VC.storyboard in Resources */,
 				762C0A7E28F5CFD400F9EE53 /* LaunchScreen.storyboard in Resources */,
 				762C0A7B28F5CFD400F9EE53 /* Assets.xcassets in Resources */,
 				762C0A7928F5CFD300F9EE53 /* Main.storyboard in Resources */,
@@ -170,6 +185,7 @@
 			files = (
 				762C0A7628F5CFD300F9EE53 /* ViewController.swift in Sources */,
 				76FFDDE928F5E55E0045926A /* Tela03VC.swift in Sources */,
+				76FA996428F5E80C0023EA63 /* Tela04VC.swift in Sources */,
 				762C0A7228F5CFD300F9EE53 /* AppDelegate.swift in Sources */,
 				7682744028F5E31E00530022 /* Tela02VC.swift in Sources */,
 				762C0A7428F5CFD300F9EE53 /* SceneDelegate.swift in Sources */,

@@ -15,15 +15,11 @@ class Tela03VC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func tappedButton(_ sender: UIButton) {
+        
+        let vc = UIStoryboard(name: "Tela04VC", bundle: nil).instantiateViewController(withIdentifier: "Tela04VC") as? Tela04VC
+        // o pushViewController ele exibe a tela da controladora
+        navigationController?.pushViewController(vc ?? UIViewController(), animated: true)
     }
-    */
-
+    
 }

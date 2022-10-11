@@ -13,6 +13,10 @@
 		762C0A7928F5CFD300F9EE53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762C0A7728F5CFD300F9EE53 /* Main.storyboard */; };
 		762C0A7B28F5CFD400F9EE53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762C0A7A28F5CFD400F9EE53 /* Assets.xcassets */; };
 		762C0A7E28F5CFD400F9EE53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762C0A7C28F5CFD400F9EE53 /* LaunchScreen.storyboard */; };
+		7682743E28F5E30300530022 /* Tela02VC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7682743D28F5E30300530022 /* Tela02VC.storyboard */; };
+		7682744028F5E31E00530022 /* Tela02VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7682743F28F5E31E00530022 /* Tela02VC.swift */; };
+		76FFDDE928F5E55E0045926A /* Tela03VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFDDE828F5E55E0045926A /* Tela03VC.swift */; };
+		76FFDDEB28F5E5730045926A /* Tela03VC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FFDDEA28F5E5730045926A /* Tela03VC.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		762C0A7A28F5CFD400F9EE53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		762C0A7D28F5CFD400F9EE53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		762C0A7F28F5CFD400F9EE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7682743D28F5E30300530022 /* Tela02VC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tela02VC.storyboard; sourceTree = "<group>"; };
+		7682743F28F5E31E00530022 /* Tela02VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela02VC.swift; sourceTree = "<group>"; };
+		76FFDDE828F5E55E0045926A /* Tela03VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela03VC.swift; sourceTree = "<group>"; };
+		76FFDDEA28F5E5730045926A /* Tela03VC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tela03VC.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,35 @@
 		762C0A7028F5CFD300F9EE53 /* Desafio_13_Navigation-programatic */ = {
 			isa = PBXGroup;
 			children = (
+				7682743C28F5E29F00530022 /* Tela03 */,
+				7682743B28F5E29500530022 /* Tela02 */,
 				762C0A7128F5CFD300F9EE53 /* AppDelegate.swift */,
 				762C0A7328F5CFD300F9EE53 /* SceneDelegate.swift */,
-				762C0A7528F5CFD300F9EE53 /* ViewController.swift */,
 				762C0A7728F5CFD300F9EE53 /* Main.storyboard */,
+				762C0A7528F5CFD300F9EE53 /* ViewController.swift */,
 				762C0A7A28F5CFD400F9EE53 /* Assets.xcassets */,
 				762C0A7C28F5CFD400F9EE53 /* LaunchScreen.storyboard */,
 				762C0A7F28F5CFD400F9EE53 /* Info.plist */,
 			);
 			path = "Desafio_13_Navigation-programatic";
+			sourceTree = "<group>";
+		};
+		7682743B28F5E29500530022 /* Tela02 */ = {
+			isa = PBXGroup;
+			children = (
+				7682743D28F5E30300530022 /* Tela02VC.storyboard */,
+				7682743F28F5E31E00530022 /* Tela02VC.swift */,
+			);
+			path = Tela02;
+			sourceTree = "<group>";
+		};
+		7682743C28F5E29F00530022 /* Tela03 */ = {
+			isa = PBXGroup;
+			children = (
+				76FFDDE828F5E55E0045926A /* Tela03VC.swift */,
+				76FFDDEA28F5E5730045926A /* Tela03VC.storyboard */,
+			);
+			path = Tela03;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +156,8 @@
 				762C0A7E28F5CFD400F9EE53 /* LaunchScreen.storyboard in Resources */,
 				762C0A7B28F5CFD400F9EE53 /* Assets.xcassets in Resources */,
 				762C0A7928F5CFD300F9EE53 /* Main.storyboard in Resources */,
+				76FFDDEB28F5E5730045926A /* Tela03VC.storyboard in Resources */,
+				7682743E28F5E30300530022 /* Tela02VC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				762C0A7628F5CFD300F9EE53 /* ViewController.swift in Sources */,
+				76FFDDE928F5E55E0045926A /* Tela03VC.swift in Sources */,
 				762C0A7228F5CFD300F9EE53 /* AppDelegate.swift in Sources */,
+				7682744028F5E31E00530022 /* Tela02VC.swift in Sources */,
 				762C0A7428F5CFD300F9EE53 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +327,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +356,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
